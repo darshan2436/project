@@ -51,6 +51,7 @@ nav{
 .main{
     background-image: url(/image/chill-study-websites-1.png);
     background-position: center;
+    background-repeat: no-repeat;
 }
 .content{
     text-align: center;
