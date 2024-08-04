@@ -74,3 +74,9 @@ nav{
     border: 1px solid var(--white);
     border-radius: 10px;
 }
+
+#noEffect:hover{
+    background-color: var(--white);
+    border: none;
+    padding: 0;
+}
