@@ -1,0 +1,30 @@
+h2{
+    font-size: 30px;
+    margin-left: 10px;
+    color:rgb(55, 159, 233);
+}
+h3{
+    text-align: center;
+    margin-left:10px;
+    color:crimson;
+}
+h4{
+    margin-left:15px;
+    text-align: center;
+    color:chocolate;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.about div{
+    border: 1px solid var(--blue);
+    width:30%;
+    padding: 10px;
+    border-radius: 5px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    color:lightsalmon;
+}

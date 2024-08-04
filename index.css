@@ -1,0 +1,96 @@
+body{
+    background-image: url(image/career-counselling.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container
+{   
+    display: inline-block;
+}
+.text
+{
+    font-size: 2em;
+    letter-spacing: 10px;
+    font-family: monospace;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+    typing 3s steps(18),
+    cursor .4s step-end infinite alternate;
+}
+@keyframes cursor {
+    50% {border-color: transparent;}
+}
+@keyframes typing {
+    from {width: 0;}
+}
+.center{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: -35px;
+}
+.left{
+    border: 2px solid white;
+    width: 300px;
+    height: 350px;
+}
+.middle{
+    border: 2px solid white;
+    width: 300px;
+    height: 350px;
+}
+.maincontent{
+    display: inline-block;
+    width: 300px;
+}
+.middlepara{
+    margin-top: 100px;
+    margin-left: 10px;
+}
+.middle{
+    margin-top: 150px;
+    margin-left: 10px;
+}
+.outerdiv{
+    display: flex;
+    
+}
+.subtopic1{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+    text-shadow: 1px 3px 3px black;
+}
+.subtopic2{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+    text-shadow: 1px 3px 3px black;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.leftpara
+{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.rightpara{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.button1{
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.button2{
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}

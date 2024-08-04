@@ -64,7 +64,6 @@ const displayAurthors = (collegeArr)=>{
                 <p class="location">Location: ${location}</p>
                 <p class="bio">${about}<?p>
             </div>
-            </a>
             `;
         }
     );
