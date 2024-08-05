@@ -10,6 +10,14 @@ const collegeArr = [
         type: "Private"
     },
     {
+        college: "Ritz College of Engineering and Management",
+        "collegelink": "https://www.ritzcollege.edu.np/",
+        "collegeimg": "https://lh3.googleusercontent.com/p/AF1QipMx-keSzR3J2TQiRj1q8FUpieK_qa-5c4w5AETK=s1360-w1360-h1020",
+        university:"Pokhara University",
+        location: "Lalitpur, Kathmandu Valley, Nepal",
+        type: "Private"
+    },
+    {
         college: "KIST",
         "collegelink": "https://kist.edu.np/",
         "collegeimg":"https://media.edusanjal.com/gallery/KIST_college_Building-min.jpg",
