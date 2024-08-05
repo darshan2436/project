@@ -59,25 +59,26 @@ const collegeArr = [
     }
 ]
 const collegeContainer = document.getElementById("colleges");
-console.log(collegeContainer);
 
-const displayAurthors = (collegeArr)=>{
+const displayCollege = (collegeArr)=>{
     collegeArr.forEach(({college,collegelink,collegeimg,university,founded,location,about},index)=>{
             collegeContainer.innerHTML += `
-            <div class="college" id="${index}" style="background-image:url(${collegeimg});"> 
-            <a href="${collegelink}">
+            <div class="college" id="${index}" style="background-image:url(${collegeimg});" onclick="linkOriginal('${collegelink}')">
                 <h2>${college}</h2>
                 <p>University: <span id="${index}">${university}</span></p>
                 <p class="founded">Founded: ${founded}</p>
                 <p class="location">Location: ${location}</p>
-                <p class="bio">${about}<?p>
+                <p class="bio">${about}</p>
             </div>
             `;
         }
     );
 }
 
-document.addEventListener("DOMContentLoaded",displayAurthors(collegeArr));
+function linkOriginal(link){
+    window.open(link,'_blank');
+}
+document.addEventListener("DOMContentLoaded",displayCollege(collegeArr));
 
 const search = ()=>{
     const searchBox = document.getElementById("search").value.toUpperCase();

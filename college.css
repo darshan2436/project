@@ -1,6 +1,5 @@
 body{
     background-color:#73afe4;
-    /* overflow: hidden; */
 }
 #colleges{
     display: flex;
@@ -19,6 +18,10 @@ body{
     overflow: scroll;
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .college p{
@@ -31,13 +34,7 @@ body{
 .college::-webkit-scrollbar{
     display: none;
 }
-.college a{   
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-}
+
 .college h2{
     margin: 5px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
