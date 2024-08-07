@@ -186,9 +186,9 @@ const managementcollegeArr =[
 
 const engineeringCollegeContainer = document.getElementById("engineeringCollege");
 const managmentCollegeContainer = document.getElementById("managmentCollege");
-const displayCollege = (EngineeringcollegeArr,managmentCollegeArr)=>{
-    EngineeringcollegeArr.forEach(({college,collegelink,collegeimg,university,founded,location,type},index)=>{
-            engineeringCollegeContainer.innerHTML += `
+const displayCollege = (collegeArr,CollegeContainer)=>{
+    collegeArr.forEach(({college,collegelink,collegeimg,university,founded,location,type},index)=>{
+            CollegeContainer.innerHTML += `
             <div class="college" id="${index}" style="background-image:url(${collegeimg});" onclick="linkOriginal('${collegelink}')">
                 <h2>${college}</h2>
                 <p>University: <span id="${index}">${university}</span></p>
@@ -197,24 +197,15 @@ const displayCollege = (EngineeringcollegeArr,managmentCollegeArr)=>{
                 <p class="type">${type}</p>
             </div>
             `;
-        });
-        managementcollegeArr.forEach(({college,collegelink,collegeimg,university,founded,location,type},index)=>{
-            managmentCollegeContainer.innerHTML += `
-            <div class="college" id="${index}" style="background-image:url(${collegeimg});" onclick="linkOriginal('${collegelink}')">
-                <h2>${college}</h2>
-                <p>University: <span id="${index}">${university}</span></p>
-                <p class="founded">Founded: ${founded}</p>
-                <p class="location">Location: ${location}</p>
-                <p class="type">${type}</p>
-            </div>
-            `;
-        }
-    );
+        })
 }
 function linkOriginal(link){
     window.open(link,'_blank');
 }
-document.addEventListener("DOMContentLoaded",displayCollege);
+document.addEventListener("DOMContentLoaded",()=>{
+    displayCollege(EngineeringcollegeArr,engineeringCollegeContainer);
+    displayCollege(managementcollegeArr,managmentCollegeContainer);
+});
 
 const search = ()=>{
     const searchBox = document.getElementById("search").value.toUpperCase();
