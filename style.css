@@ -8,6 +8,8 @@
     --black: #111;
     --white:#fff;
     --dark-blue:#020681;
+    --grey: #5d5b5b;
+    --light-gray:#bbb9b9;
 }
 body{
     background-color: var(--sky-blue);
@@ -28,6 +30,21 @@ nav{
 }
 .navbar img{
     width: 50px;
+}
+.college-hover a{
+    display: none;
+}
+.college-hover{
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 6vh;
+    left: 107vh;
+}
+.college-hover a:hover{
+    background-color: var(--grey);
+    border-radius: 0;
 }
 .search{
     height: 28px;

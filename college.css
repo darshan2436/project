@@ -1,7 +1,7 @@
 body{
     background-color:#73afe4;
 }
-#colleges{
+#colleges #engineeringCollege{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
