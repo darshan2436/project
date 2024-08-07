@@ -214,7 +214,7 @@ const displayCollege = (EngineeringcollegeArr,managmentCollegeArr)=>{
 function linkOriginal(link){
     window.open(link,'_blank');
 }
-document.addEventListener("DOMContentLoaded",displayCollege(EngineeringcollegeArr));
+document.addEventListener("DOMContentLoaded",displayCollege);
 
 const search = ()=>{
     const searchBox = document.getElementById("search").value.toUpperCase();
