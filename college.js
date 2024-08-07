@@ -117,7 +117,7 @@ const EngineeringcollegeArr = [
            type: "Private"
     }
 ]
-const ManagementcollegeArr =[
+const managementcollegeArr =[
     {
         college:"Kathmandu Model College",
         "collegelink":"https://www.kmc.edu.np/",
@@ -185,15 +185,27 @@ const ManagementcollegeArr =[
 ]
 
 const engineeringCollegeContainer = document.getElementById("engineeringCollege");
-const displayCollege = (EngineeringcollegeArr)=>{
-    EngineeringcollegeArr.forEach(({college,collegelink,collegeimg,university,founded,location,about},index)=>{
+const managmentCollegeContainer = document.getElementById("managmentCollege");
+const displayCollege = (EngineeringcollegeArr,managmentCollegeArr)=>{
+    EngineeringcollegeArr.forEach(({college,collegelink,collegeimg,university,founded,location,type},index)=>{
             engineeringCollegeContainer.innerHTML += `
             <div class="college" id="${index}" style="background-image:url(${collegeimg});" onclick="linkOriginal('${collegelink}')">
                 <h2>${college}</h2>
                 <p>University: <span id="${index}">${university}</span></p>
                 <p class="founded">Founded: ${founded}</p>
                 <p class="location">Location: ${location}</p>
-                <p class="bio">${about}</p>
+                <p class="type">${type}</p>
+            </div>
+            `;
+        });
+        managementcollegeArr.forEach(({college,collegelink,collegeimg,university,founded,location,type},index)=>{
+            managmentCollegeContainer.innerHTML += `
+            <div class="college" id="${index}" style="background-image:url(${collegeimg});" onclick="linkOriginal('${collegelink}')">
+                <h2>${college}</h2>
+                <p>University: <span id="${index}">${university}</span></p>
+                <p class="founded">Founded: ${founded}</p>
+                <p class="location">Location: ${location}</p>
+                <p class="type">${type}</p>
             </div>
             `;
         }
