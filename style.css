@@ -97,15 +97,3 @@ nav{
     border: none;
     padding: 0;
 }
-p{
-    font-size: 18px;
-    font-style:normal;
-    color:brown;
-}
-img{
-    margin-top: 10px;
-    width:100px;
-}
-.footer{
-    position: fixed;
-}

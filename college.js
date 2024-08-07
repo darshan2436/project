@@ -117,7 +117,7 @@ const EngineeringcollegeArr = [
            type: "Private"
     }
 ]
-const ManagementcollegeArr =[
+const managementcollegeArr =[
     {
         college:"Kathmandu Model College",
         "collegelink":"https://www.kmc.edu.np/",
@@ -185,24 +185,27 @@ const ManagementcollegeArr =[
 ]
 
 const engineeringCollegeContainer = document.getElementById("engineeringCollege");
-const displayCollege = (EngineeringcollegeArr)=>{
-    EngineeringcollegeArr.forEach(({college,collegelink,collegeimg,university,founded,location,about},index)=>{
-            engineeringCollegeContainer.innerHTML += `
+const managmentCollegeContainer = document.getElementById("managmentCollege");
+const displayCollege = (collegeArr,CollegeContainer)=>{
+    collegeArr.forEach(({college,collegelink,collegeimg,university,founded,location,type},index)=>{
+            CollegeContainer.innerHTML += `
             <div class="college" id="${index}" style="background-image:url(${collegeimg});" onclick="linkOriginal('${collegelink}')">
                 <h2>${college}</h2>
                 <p>University: <span id="${index}">${university}</span></p>
                 <p class="founded">Founded: ${founded}</p>
                 <p class="location">Location: ${location}</p>
-                <p class="bio">${about}</p>
+                <p class="type">${type}</p>
             </div>
             `;
-        }
-    );
+        })
 }
 function linkOriginal(link){
     window.open(link,'_blank');
 }
-document.addEventListener("DOMContentLoaded",displayCollege(EngineeringcollegeArr));
+document.addEventListener("DOMContentLoaded",()=>{
+    displayCollege(EngineeringcollegeArr,engineeringCollegeContainer);
+    displayCollege(managementcollegeArr,managmentCollegeContainer);
+});
 
 const search = ()=>{
     const searchBox = document.getElementById("search").value.toUpperCase();
