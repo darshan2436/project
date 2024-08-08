@@ -9,39 +9,12 @@ const EngineeringcollegeArr = [
         type: "Private"
     },
     {
-        college: "Ritz College of Engineering and Management",
-        "collegelink": "https://www.ritzcollege.edu.np/",
-        "collegeimg": "https://lh3.googleusercontent.com/p/AF1QipMx-keSzR3J2TQiRj1q8FUpieK_qa-5c4w5AETK=s1360-w1360-h1020",
-        university:"Pokhara University",
-        founded: 2009,
-        location: "Lalitpur, Kathmandu Valley, Nepal",
-        type: "Private"
-    },
-    {
-        college: "KIST",
-        "collegelink": "https://kist.edu.np/",
-        "collegeimg":"https://media.edusanjal.com/gallery/KIST_college_Building-min.jpg",
-        university:"Pokhara University",
-        founded: 1993,
-        location: "Kathmandu, Nepal",
-        type: "Private"
-    },
-    {
         college: "Thapathali Campus",
         "collegelink": "https://www.tcioe.edu.np/",
         "collegeimg":"https://www.ioenotes.edu.np/media/2015/10/kathford-engineering-college-ioe.jpg",
         university:"Tribhuvan University",
         founded: 1966,
         location: "Thapathali, Nepal",
-        type: "Public"
-    },
-    {
-        college:"Pulchowk Campus",
-        "collegelink": "https://pcampus.edu.np/",
-        "collegeimg":"https://thumbs.dreamstime.com/b/beautiful-building-pulchowk-engineering-college-beautiful-building-pulchowk-engineering-college-167359910.jpg",
-        university:"Tribhuvan University",
-        founded: 1972,
-        location: "Pulchowk,Nepal",
         type: "Public"
     },
     {
@@ -54,12 +27,12 @@ const EngineeringcollegeArr = [
         type: "Private"
     },
     {
-        college: "Nepal Engineering College",
-        "collegelink": "https://nec.edu.np/",
-        "collegeimg":"https://www.gobhaktapur.com/wp-content/uploads/2022/12/nec-building.jpg",
-        university:"Tribhuvan University",
-        founded: 1994,
-        location: "Changunarayan, Bhaktapur",
+        college: "KIST",
+        "collegelink": "https://kist.edu.np/",
+        "collegeimg":"https://media.edusanjal.com/gallery/KIST_college_Building-min.jpg",
+        university:"Pokhara University",
+        founded: 1993,
+        location: "Kathmandu, Nepal",
         type: "Private"
     },
     {
@@ -72,13 +45,49 @@ const EngineeringcollegeArr = [
         type: "Community"
     },
     {
+        college:"Kantipur Engineering College",
+        "collegelink":"https://kec.edu.np/",
+        "collegeimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6rUA9GIVaj_YpFSygOOb2V-i7D75wova2sA&s",
+        university:"Tribhuvan University",
+        founded: 1998,
+        location: "Patan,Nepal",
+        type: "Private"
+    },
+    {
+        college: "Ritz College of Engineering and Management",
+        "collegelink": "https://www.ritzcollege.edu.np/",
+        "collegeimg": "https://lh3.googleusercontent.com/p/AF1QipMx-keSzR3J2TQiRj1q8FUpieK_qa-5c4w5AETK=s1360-w1360-h1020",
+        university:"Pokhara University",
+        founded: 2009,
+        location: "Lalitpur, Kathmandu Valley, Nepal",
+        type: "Private"
+    },
+    {
+        college:"Pulchowk Campus",
+        "collegelink": "https://pcampus.edu.np/",
+        "collegeimg":"https://thumbs.dreamstime.com/b/beautiful-building-pulchowk-engineering-college-beautiful-building-pulchowk-engineering-college-167359910.jpg",
+        university:"Tribhuvan University",
+        founded: 1972,
+        location: "Pulchowk,Nepal",
+        type: "Public"
+    },
+    {
+        college: "Nepal Engineering College",
+        "collegelink": "https://nec.edu.np/",
+        "collegeimg":"https://www.gobhaktapur.com/wp-content/uploads/2022/12/nec-building.jpg",
+        university:"Tribhuvan University",
+        founded: 1994,
+        location: "Changunarayan, Bhaktapur",
+        type: "Private"
+    },
+    {
         college:"Himalaya College of Engineering",
         "collegelink":"https://www.hcoe.edu.np/",
         "collegeimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCqitbXLIiOpWHSf-X949LmnadOfiJa_Lxzw&s",
         university:"Tribhuvan University",
         founded: 2000,
         location: "Lalitpur, Nepal",
-           type: "Private"
+        type: "Private"
     },
     {
         college:"Kathford International College of Engineering and Management",
@@ -90,22 +99,13 @@ const EngineeringcollegeArr = [
            type: "Private"
     },
     {
-        college:"Kantipur Engineering College",
-        "collegelink":"https://kec.edu.np/",
-        "collegeimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6rUA9GIVaj_YpFSygOOb2V-i7D75wova2sA&s",
-        university:"Tribhuvan University",
-        founded: 1998,
-        location: "Patan,Nepal",
-           type: "Private"
-    },
-    {
         college:"Janakpur Engineering College",
         "collegelink":"https://jec.edu.np/",
         "collegeimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXaV9vNFAo5fdkeB7Nlk162UgTY5dl1Mf7TQ&s",
          university:"Tribhuvan University",
          founded: 2006,
          location: "Patan,Nepal",
-            type: "Private"
+        type: "Private"
     },
     {
         college:"ACME Engineering College",
@@ -114,7 +114,7 @@ const EngineeringcollegeArr = [
         university:"Pokhara University",
         founded: 2000,
         location: "Sitapaila Chowk, Kathmandu",
-           type: "Private"
+        type: "Private"
     }
 ]
 const managementcollegeArr =[
@@ -125,7 +125,7 @@ const managementcollegeArr =[
         university:"Tribhuvan University",
         founded: 2000,
         location: "Balkumari,Kathmandu",
-           type: "Private"
+        type: "Private"
     },
     {
         college: "NCIT",
@@ -134,16 +134,16 @@ const managementcollegeArr =[
         university:"Pokhara University",
         founded: 2001,
         location: "Lalitpur, Kathmandu Valley, Nepal",
-           type: "Private"
+        type: "Private"
     },
     {
         college:"Ace Institute of Management",
         "collegelink": "https://ace.edu.np/",
         "collegeimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN9wu_DY8akk4zIOA-aRGWVzCIE_1-uBZL6Q&s",
-         university:"Pokhara University" ,
-         founded: 1999,
-         location: "Bibhuti Janak Marg, Kathmandu",
-            type: "Private"
+        university:"Pokhara University" ,
+        founded: 1999,
+        location: "Bibhuti Janak Marg, Kathmandu",
+        type: "Private"
     },
     {
         college:"Kathmandu University School of Management",
@@ -152,7 +152,7 @@ const managementcollegeArr =[
         university:"Kathmandu University" ,
         founded: 1993,
         location: "Balkumari,Lalitpur",
-           type: "Private"
+        type: "Private"
     },
     {
         college:"Shanker Dev Campus",
@@ -161,7 +161,7 @@ const managementcollegeArr =[
         university:"Tribhuvan University",
         founded: 1951,
         location: "Pradashani Marg,Kathmandu",
-         type: "Public"
+        type: "Public"
 
     },
     {
@@ -189,12 +189,14 @@ const managmentCollegeContainer = document.getElementById("managmentCollege");
 const displayCollege = (collegeArr,CollegeContainer)=>{
     collegeArr.forEach(({college,collegelink,collegeimg,university,founded,location,type},index)=>{
             CollegeContainer.innerHTML += `
-            <div class="college" id="${index}" style="background-image:url(${collegeimg});" onclick="linkOriginal('${collegelink}')">
+            <div class="info"  onclick="linkOriginal('${collegelink}')">
+            <div class="college" id="${index}" style="background-image:url(${collegeimg});">
                 <h2>${college}</h2>
-                <p>University: <span id="${index}">${university}</span></p>
+            </div>
+            <p>University: <span id="${index}">${university}</span></p>
                 <p class="founded">Founded: ${founded}</p>
                 <p class="location">Location: ${location}</p>
-                <p class="type">${type}</p>
+                <p class="type">Type: ${type}</p>
             </div>
             `;
         })
