@@ -99,7 +99,7 @@ input{
     display: flex;
     justify-content: center;
     width: 500px;
-    height: 550px;
+    height: 38rem;
     background-color: white;
     opacity: 80%;
 }
@@ -111,4 +111,15 @@ input{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: aliceblue;
     text-shadow: 1px 3px 3px black;
+}
+.scholarshipsection input{
+    outline: none;
+    font-size: 18px;
+}
+#submit:hover{
+    font-weight: 450;
+    border: none;
+    font-size: 22px; 
+    color: #00ff44;
+    background-color: #4285f4;
 }
