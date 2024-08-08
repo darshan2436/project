@@ -119,21 +119,21 @@ const EngineeringcollegeArr = [
 ]
 const managementcollegeArr =[
     {
-        college:"Kathmandu Model College",
-        "collegelink":"https://www.kmc.edu.np/",
-        "collegeimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVMhOw0NJObTVluFNXvxYrY89eXmoAzUV0mQ&s",
-        university:"Tribhuvan University",
-        founded: 2000,
-        location: "Balkumari,Kathmandu",
-        type: "Private"
-    },
-    {
         college: "NCIT",
         "collegelink": "https://ncit.edu.np/",
         "collegeimg":"https://ncit.edu.np/storage/photo/cover/zFftaidnVWvw2kEaawbaQr3v9RGV2k7n7htCHaPQ.jpg",
         university:"Pokhara University",
         founded: 2001,
         location: "Lalitpur, Kathmandu Valley, Nepal",
+        type: "Private"
+    },
+    {
+        college:"Kathmandu Model College",
+        "collegelink":"https://www.kmc.edu.np/",
+        "collegeimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVMhOw0NJObTVluFNXvxYrY89eXmoAzUV0mQ&s",
+        university:"Tribhuvan University",
+        founded: 2000,
+        location: "Balkumari,Kathmandu",
         type: "Private"
     },
     {

@@ -56,12 +56,12 @@ body{
 }
 .left{
     position: absolute;
-    left: 50px;
+    left: 10px;
     top: 10px;
 }
 .middle{
     position: absolute;
-    left: 420px;
+    left: 370px;
     top: 190px;
 }
 .leftpara
