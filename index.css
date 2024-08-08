@@ -81,6 +81,10 @@ body{
     margin-left: 30px;
 }
 .content button{
+    border: none;
+    border-radius: 5px;
+    height: 32px;
+    font-size: 20px;
     background-color: #4CAF50;
 }
 .content button a{

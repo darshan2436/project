@@ -13,6 +13,7 @@
 }
 body{
     background-color: var(--sky-blue);
+    font-family: "Barlow", sans-serif;
 }
 .navbar a{
     text-align: center;

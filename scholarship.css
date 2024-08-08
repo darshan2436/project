@@ -87,6 +87,10 @@ input{
 
 }
 
+.main{
+    padding: 23px;
+}
+
 .scholarshipsection{
     border: none;
     border-radius: 10px;
@@ -94,7 +98,7 @@ input{
     margin-left: 30%;
     display: flex;
     justify-content: center;
-    width: 600px;
+    width: 500px;
     height: 550px;
     background-color: white;
     opacity: 80%;
