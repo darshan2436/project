@@ -19,7 +19,6 @@ h4{
     border-radius: 5px;
     display: flex;
 }
-<<<<<<< HEAD
 div img{
     margin-left: 40px;
     border: none;
@@ -53,10 +52,9 @@ div img{
 }
 .individual3{
     top: 970px;
-=======
+}
 h1{
     font-size: 40px;
     text-align: center;
     color:black;
->>>>>>> 43abb47789e0b4f97e4261cbfd832407db1ce60a
 }
