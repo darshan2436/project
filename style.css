@@ -100,3 +100,16 @@ nav{
     border: none;
     padding: 0;
 }
+.footer{
+    opacity: 0.9;
+    font-size: 18px;
+    text-align: center;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(4, 0, 255);
+}
+.footer a{
+    text-decoration: none;
+    margin-top: 10px;
+    color: var(--black);
+}
