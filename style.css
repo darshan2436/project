@@ -42,10 +42,6 @@ nav{
     top: 6vh;
     left: 107vh;
 }
-.college-hover a:hover{
-    background-color: var(--grey);
-    border-radius: 0;
-}
 .search{
     height: 28px;
     width: 250px;
@@ -84,7 +80,11 @@ nav{
     border: 1px solid var(--white);
     border-radius: 10px;
 }
-
+.college-hover a:hover{
+    font-size: 18px;
+    background-color: var(--grey);
+    border-radius: 0;
+}
 #background{
     background-color: var(--sky-blue);
 
