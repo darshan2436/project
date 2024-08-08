@@ -4,6 +4,9 @@
       margin-bottom: 10px;
       color: brown;
 }
+.navbar a img{
+    width: 50px;
+}
 .body img{
     width: 160px;
     padding-inline:inherit;
