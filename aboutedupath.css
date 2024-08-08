@@ -4,17 +4,25 @@
       margin-bottom: 10px;
       color: brown;
 }
-img{
-    width: 100px;
+.body img{
+    width: 160px;
     padding-inline:inherit;
 }
+#first{
+    top: 79px;
+    left: 170px;
+    position: absolute;
+}
 p{
-    font-size: 20x;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
     margin-top: 10px;
     margin-left:5px;
     margin-right: 5px;
 }
 h1{
+    text-align: center;
     font-size: 40px;
     color:brown;
 }
@@ -22,8 +30,33 @@ a{
     color:brown;
 }
 .feedback{
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    left: 20px;
+    width: 40%;
+    border: none;
+    border-radius: 5px;
     display: flex;
     margin-right: 50px;
     margin-top: 20px;
     margin-left: 5px;
+    box-shadow: 1px 1px 6px 0.5px black;
+}
+.feedback input{
+    font-size: 19px;
+    height: 24px;
+}
+.feedback textarea{
+    margin-left: 8px;
+    outline: none;
+}
+.feedback textarea::-webkit-resizer{
+    display: none;
+}
+.feedback label{
+    margin-left: 8px;
+}
+.feedback #submit{
+    margin-left: 8px;
 }
