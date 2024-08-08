@@ -31,10 +31,10 @@ nav{
 .navbar img{
     width: 50px;
 }
-.college-hover a{
+.hover a{
     display: none;
 }
-.college-hover{
+.hover{
     background-color: var(--light-gray);
     display: flex;
     flex-direction: column;
@@ -42,9 +42,8 @@ nav{
     top: 6vh;
     left: 107vh;
 }
-.college-hover a:hover{
-    background-color: var(--grey);
-    border-radius: 0;
+.about{
+    left: 142vh;
 }
 .search{
     height: 28px;
@@ -84,10 +83,13 @@ nav{
     border: 1px solid var(--white);
     border-radius: 10px;
 }
-
+.hover a:hover{
+    font-size: 18px;
+    background-color: var(--grey);
+    border-radius: 0;
+}
 #background{
     background-color: var(--sky-blue);
-
     border: 1px solid var(--white);
     border-radius: 10px;
 }
